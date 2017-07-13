@@ -1,0 +1,21 @@
+{
+  "name": "wordpath",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel": "^6.23.0",
+    "react": "^15.6.1",
+    "webpack": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
