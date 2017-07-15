@@ -1,0 +1,22 @@
+.test{
+  width:600px;
+  height:800px;
+  border: 1px solid black;
+ 
+}
+
+@media print and (orientation: landscape){
+    /* Your code for portrait landscape */
+
+    .test{ 
+    /*chrome seems only look at this data*/
+    height: 5in !important;
+    }
+
+@media print and (orientation: portrait){
+    /* Your code for portrait landscape */
+
+    .test{
+    height: 10in !important;
+    }
+}
